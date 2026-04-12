@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Luis M. Thomas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-name">L. M. Thomas</a>
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.pdf" target="_blank">CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="page-header fade-in">
+      <h1>Research</h1>
+      <p class="page-subtitle">
+        My work spans two complementary threads: detecting new exoplanets with
+        precision radial velocities and understanding the formation physics
+        of sub-Saturn-mass planets.
+      </p>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- RESEARCH AREA 1: DETECTION WITH MAHPS      -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="research-block fade-in">
+      <h2>Exoplanet Detection with MaHPS at Wendelstein</h2>
+
+      <p>
+        A central pillar of my PhD has been using the
+        <strong>Munich Astro-spectroscopic High-resolution Portable Spectrograph (MaHPS)</strong>,
+        a fibre-fed échelle spectrograph mounted on the 2&thinsp;m Fraunhofer telescope at the
+        Wendelstein Observatory in the Bavarian Alps. MaHPS delivers radial-velocity
+        precision at the few-m/s level, making it a powerful tool for confirming
+        transiting planet candidates from missions such as TESS and for carrying out
+        independent Doppler surveys of carefully selected stellar samples.
+      </p>
+
+      <p>
+        One of our primary targets has been the <strong>open cluster M&thinsp;67</strong>,
+        one of the closest solar-age, solar-metallicity clusters. By surveying
+        cluster members we can study giant-planet occurrence in an environment where
+        stellar ages, compositions, and dynamical histories are well constrained.
+        Our survey revealed an elevated hot-Jupiter occurrence rate in M&thinsp;67
+        compared to the field, along with the discovery of <strong>S1429&thinsp;b</strong>,
+        a warm Jupiter on a moderately eccentric orbit.
+        <a href="#" class="paper-ref">Paper&thinsp;I&thinsp;↗</a>
+      </p>
+
+      <div class="figure-group">
+        <figure class="figure-slot">
+          <!-- Replace with: <img src="figures/m67_rv.png" alt="M 67 RV time series"> -->
+          <div class="placeholder">Replace with M&thinsp;67 RV time-series or phase-folded orbit plot</div>
+          <figcaption>Fig.&thinsp;1 — Radial-velocity measurements and best-fit Keplerian model for S1429&thinsp;b in M&thinsp;67.</figcaption>
+        </figure>
+        <figure class="figure-slot">
+          <!-- Replace with: <img src="figures/m67_occurrence.png" alt="Hot Jupiter occurrence in M 67"> -->
+          <div class="placeholder">Replace with hot-Jupiter occurrence rate comparison plot</div>
+          <figcaption>Fig.&thinsp;2 — Hot-Jupiter occurrence rate in M&thinsp;67 versus the field population.</figcaption>
+        </figure>
+      </div>
+
+      <p>
+        Beyond cluster surveys, MaHPS has played a key role in the mass
+        characterisation of TESS planet candidates. In a follow-up campaign we
+        confirmed <strong>TOI-2147&thinsp;b</strong> and <strong>TOI-6019&thinsp;b</strong>,
+        two warm Jupiters on notably eccentric orbits. Their orbital properties
+        — moderate periods combined with eccentricities of ~0.4–0.5 — are
+        consistent with high-eccentricity migration, where gravitational
+        interactions with an outer companion excite the eccentricity before tidal
+        dissipation circularises the orbit. These systems add to a growing sample
+        of warm Jupiters that may be caught in the act of migrating inward.
+        <a href="#" class="paper-ref">Paper&thinsp;II&thinsp;↗</a>
+      </p>
+
+      <div class="figure-group">
+        <figure class="figure-slot">
+          <!-- Replace with: <img src="figures/wj_orbits.png" alt="Eccentric warm Jupiter orbits"> -->
+          <div class="placeholder">Replace with eccentricity vs. period diagram or phase-folded RVs</div>
+          <figcaption>Fig.&thinsp;3 — Phase-folded RV curves for TOI-2147&thinsp;b and TOI-6019&thinsp;b showing their eccentric orbits.</figcaption>
+        </figure>
+        <figure class="figure-slot">
+          <!-- Replace with: <img src="figures/migration.png" alt="Migration diagram"> -->
+          <div class="placeholder">Replace with e–P diagram or tidal circularisation timescale plot</div>
+          <figcaption>Fig.&thinsp;4 — Eccentricity–period distribution of warm Jupiters with the two new systems highlighted.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- RESEARCH AREA 2: SUB-SATURN CHARACTERISATION -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="research-block fade-in">
+      <h2>Formation and Evolution of Sub-Saturns</h2>
+
+      <p>
+        Sub-Saturns — planets with radii of roughly 4–8&thinsp;R<sub>⊕</sub> — occupy
+        a fascinating and poorly understood region of parameter space. Too large to be
+        explained by rocky cores with thin atmospheres alone, yet too small to have
+        undergone the runaway gas accretion that builds Jupiter-mass envelopes, they
+        challenge conventional models of giant planet formation. A major thread of my
+        research asks: <em>are sub-Saturns a coherent population, or do they comprise
+        distinct sub-groups shaped by different physical processes?</em>
+      </p>
+
+      <p>
+        As part of the TESS follow-up effort I contributed to the discovery and
+        characterisation of <strong>TOI-5108&thinsp;b</strong> and
+        <strong>TOI-5786&thinsp;b</strong>, two sub-Saturns located near the upper
+        edge of the <strong>Neptune desert</strong> — the observed deficit of
+        intermediate-mass planets on short-period orbits. Their positions in the
+        mass–period plane place them in a transitional zone between the desert,
+        the recently identified savanna of longer-period sub-Saturns, and the narrow
+        ridge of surviving short-period planets, providing valuable test cases for
+        photoevaporation and migration models.
+        <a href="#" class="paper-ref">Paper&thinsp;III&thinsp;↗</a>
+      </p>
+
+      <div class="figure-group">
+        <figure class="figure-slot">
+          <!-- Replace with: <img src="figures/desert.png" alt="Neptune desert diagram"> -->
+          <div class="placeholder">Replace with radius–period or mass–period diagram showing the Neptune desert, ridge, and savanna</div>
+          <figcaption>Fig.&thinsp;5 — The Neptune desert landscape with TOI-5108&thinsp;b and TOI-5786&thinsp;b marked at the desert edge.</figcaption>
+        </figure>
+        <figure class="figure-slot">
+          <!-- Replace with: <img src="figures/subsaturn_interior.png" alt="Sub-Saturn interior models"> -->
+          <div class="placeholder">Replace with interior structure or mass–radius diagram</div>
+          <figcaption>Fig.&thinsp;6 — Mass–radius diagram for sub-Saturns with interior composition contours.</figcaption>
+        </figure>
+      </div>
+
+      <p>
+        To move beyond individual discoveries I carried out a population-level analysis
+        of <strong>28 sub-Saturns</strong> with well-measured masses and radii, deriving
+        their envelope mass fractions (f<sub>env</sub>). The resulting distribution is
+        strikingly <strong>bimodal</strong>: one group clusters at low envelope fractions
+        (~5–15%), while a second peaks at much higher values (~40–60%). The gap between
+        them aligns with the theoretical threshold for runaway gas accretion, suggesting
+        that sub-Saturns below this threshold are planets whose growth stalled, while
+        those above it narrowly avoided becoming gas giants. A complementary radius-bin
+        analysis at 6&thinsp;R<sub>⊕</sub> supports this interpretation, with the
+        smaller (4–6&thinsp;R<sub>⊕</sub>) and larger (6–8&thinsp;R<sub>⊕</sub>)
+        sub-groups showing distinct structural properties.
+        <a href="https://arxiv.org/abs/2509.12120" class="paper-ref">Paper&thinsp;IV&thinsp;↗</a>
+      </p>
+
+      <div class="figure-group single">
+        <figure class="figure-slot">
+          <!-- Replace with: <img src="figures/fenv_bimodal.png" alt="Bimodal envelope mass fraction distribution"> -->
+          <div class="placeholder">Replace with the bimodal f_env histogram</div>
+          <figcaption>Fig.&thinsp;7 — Bimodal distribution of envelope mass fractions across 28 sub-Saturns, with the runaway accretion threshold indicated.</figcaption>
+        </figure>
+      </div>
+
+      <p>
+        Most recently, I have been investigating the <strong>companion architecture</strong>
+        of sub-Saturn systems. Using RV injection-recovery tests across 68 systems I
+        measured completeness-corrected companion rates and found that multiplicity
+        patterns trace the Neptune-desert landscape: nearby-planet rates climb from
+        ~0% in the desert through ~8% on the ridge to ~50% in the savanna, closely
+        mirroring the companion rates of hot and warm Jupiters at the respective
+        boundaries. A metallicity–multiplicity correlation further suggests that
+        the giant-like (6–8&thinsp;R<sub>⊕</sub>) sub-Saturns share formation
+        channels with gas giants.
+        <!-- <a href="#" class="paper-ref">Thomas et al. (in prep.)&thinsp;↗</a> -->
+      </p>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      &copy; 2026 Luis M. Thomas ·
+      <a href="mailto:your.email@example.com">Contact</a>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: 0.12 });
+      document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    });
+  </script>
+</body>
+</html>

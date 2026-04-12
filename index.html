@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luis M. Thomas — Exoplanet Researcher</title>
+  <meta name="description" content="PhD researcher in exoplanet detection and characterisation at LMU Munich and the Max Planck Institute for Extraterrestrial Physics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-name">L. M. Thomas</a>
+      <div class="nav-links">
+        <a href="index.html" class="active">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.pdf" target="_blank">CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <section class="hero" id="top">
+      <div class="hero-grid fade-in">
+        <div class="hero-photo">
+          <!-- Replace with: <img src="photo.jpg" alt="Luis M. Thomas"> -->
+          &#127756;
+        </div>
+        <div>
+          <h1>Luis Maurice Thomas</h1>
+          <div class="subtitle">PhD Researcher — Exoplanet Science</div>
+          <div class="affiliation">
+            Universitäts-Sternwarte München &amp; Max-Planck-Institut für extraterrestrische Physik
+          </div>
+          <div class="hero-links">
+            <a href="mailto:your.email@example.com">Email</a>
+            <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX" target="_blank">ORCID</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Thomas%2C+Luis%22" target="_blank">ADS</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about fade-in">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I am a PhD student at the Universitäts-Sternwarte München and the
+        Max-Planck-Institut für extraterrestrische Physik, working under the supervision
+        of Dr.&nbsp;Roberto Saglia. My research centres on the detection and
+        characterisation of gaseous exoplanets — from hot Jupiters in stellar clusters
+        to the enigmatic sub-Saturn population straddling the boundary between
+        ice giants and gas giants.
+      </p>
+      <p>
+        My work draws on two complementary approaches. On the observational side, I use
+        the MaHPS fibre-fed spectrograph at the Wendelstein Observatory to carry out
+        precision radial-velocity surveys, searching for giant planets in environments
+        such as open clusters where the host-star properties are well constrained.
+        On the population side, I combine transit and RV data to study the
+        internal structures and orbital architectures of sub-Saturn-mass planets, probing
+        open questions about how these worlds form and whether they represent
+        a distinct evolutionary channel from their larger Jovian cousins.
+      </p>
+      <p>
+        Before starting my PhD I completed my Master's degree in [your details here].
+        Outside of research, [add a sentence or two about your interests — this
+        humanises your page for visitors].
+      </p>
+
+      <div class="research-interests">
+        <h3>Research Interests</h3>
+        <p>
+          Exoplanet detection &amp; characterisation · Sub-Saturn formation &amp; evolution ·
+          Radial velocity methods · Transit photometry · Planetary system architectures ·
+          High-eccentricity migration · Envelope mass fractions · Open cluster planet populations
+        </p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      &copy; 2026 Luis M. Thomas ·
+      <a href="mailto:your.email@example.com">Contact</a>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: 0.12 });
+      document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    });
+  </script>
+</body>
+</html>
