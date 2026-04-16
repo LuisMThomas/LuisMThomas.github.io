@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teaching — Luis M. Thomas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-name">L. M. Thomas</a>
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html" class="active">Teaching</a>
+        <a href="cv.pdf" target="_blank">CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="page-header fade-in">
+      <h1>Teaching</h1>
+    </div>
+
+    <section style="padding-top: 1rem;" class="fade-in">
+
+      <!-- ── TEACHING ── -->
+      <div class="teaching-section">
+        <h2 class="teaching-heading">Teaching</h2>
+        <ul class="teaching-list">
+          <li>
+            Tutor for the MSc Astrophysics
+            <a href="#">Observational Practicals</a>
+            at LMU Munich (Winter semester 20XX – 20XX).
+          </li>
+          <li>
+            Tutor for the BSc Physics laboratory course
+            at LMU Munich (Summer semester 20XX).
+          </li>
+          <li>
+            Add additional teaching roles here. Include links to course
+            pages or materials where available.
+          </li>
+        </ul>
+      </div>
+
+      <!-- ── MENTORING ── -->
+      <div class="teaching-section">
+        <h2 class="teaching-heading">Mentoring Experience</h2>
+
+        <p style="font-size: 0.92rem; margin-bottom: 1.5rem; color: var(--body);">
+          As the exoplanet researcher within an extragalactic astronomy group that operates
+          the Wendelstein Observatory, I have had the privilege of directly supervising
+          Master's students whose theses combine Wendelstein observations with planetary
+          science. Working closely with these young researchers has been one of the most
+          rewarding parts of my PhD.
+        </p>
+
+        <ul class="teaching-list">
+          <li>
+            <strong>Student Name</strong> — MSc thesis (20XX–20XX):
+            <em>"Project title goes here"</em>.
+          </li>
+          <li>
+            <strong>Student Name</strong> — MSc thesis (20XX–20XX):
+            <em>"Project title goes here"</em>.
+          </li>
+          <li>
+            <strong>Student Name</strong> — Research project (20XX):
+            <em>"Project title goes here"</em>.
+          </li>
+        </ul>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      &copy; 2026 Luis M. Thomas ·
+      <a href="mailto:your.email@example.com">Contact</a>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: 0.12 });
+      document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    });
+  </script>
+</body>
+</html>
