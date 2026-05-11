@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Luis M. Thomas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-name">L. M. Thomas</a>
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <a href="research.html" class="active">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.pdf" target="_blank">CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="page-header fade-in">
+      <h1>Research</h1>
+      <p class="page-subtitle">
+        My work focuses on two main topics: detecting new exoplanets with
+        precision radial velocities and understanding the formation and evolution
+        of sub-Saturns.
+      </p>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- RESEARCH AREA 1: EXOPLANET DETECTION WITH MAHPS      -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="research-block fade-in">
+      <h2>Exoplanet Detection with MaHPS at Wendelstein</h2>
+
+      <p>
+        A central pillar of my PhD has been using the
+        <strong>Manfred Hirt Planet Finder Spectrograph (MaHPS)</strong>,
+        a fibre-fed échelle spectrograph mounted on the 2.1&thinsp;m Fraunhofer
+        telescope at the Wendelstein Observatory in the Bavarian Alps. MaHPS
+        delivers radial-velocity precision at the few-m/s level, making it a
+        powerful tool for measuring the masses of transiting planet candidates
+        identified by the TESS space mission. Beyond observations, I also
+        contribute to the development and maintenance of the MaHPS data
+        reduction pipelines and have served as the on-site observer for more
+        than 50 nights.
+      </p>
+
+      <p>
+        Using MaHPS, I have confirmed and characterised multiple new exoplanets
+        spanning a range of masses and orbital architectures. These include two
+        sub-Saturns near the edge of the Neptune desert — the observed deficit
+        of intermediate-mass planets on short-period orbits — whose stability
+        against photoevaporation supports the idea that the desert's upper
+        boundary is shaped by migration rather than atmospheric loss
+        (<a href="https://doi.org/10.1051/0004-6361/202452738" class="paper-ref">Thomas, Hébrard et al. 2025&thinsp;↗</a>).
+        I also confirmed two warm Jupiters on notably eccentric orbits, one of
+        which lies on a tidal circularisation track that will eventually bring it
+        to a hot-Jupiter orbit, providing a snapshot of high-eccentricity
+        migration in action
+        (<a href="#" class="paper-ref">Thomas, Nielsen et al. 2026&thinsp;↗</a>).
+        In addition, I contributed to the long-running radial-velocity survey
+        <em>Search for Giant Planets in M&thinsp;67</em> using several other
+        spectrographs (HPF, HARPS, HARPS-North, SOPHIE), which led to the
+        discovery of a warm Jupiter orbiting a turn-off-point star in the
+        cluster and an updated hot-Jupiter occurrence rate that remains elevated
+        compared to field stars
+        (<a href="https://doi.org/10.1051/0004-6361/202449233" class="paper-ref">Thomas, Saglia et al. 2024&thinsp;↗</a>).
+      </p>
+
+      <div class="figure-group">
+        <figure class="figure-slot">
+          <img src="Images/WST_telescope" alt="WST Telescope">
+          <figcaption>The 2.1&thinsp;m Fraunhofer telescope at Wendelstein Observatory in the Bavarian Alps (Credit: Raphael Zöller).</figcaption>
+        </figure>
+        <figure class="figure-slot">
+          <img src="Images/toi5786_rvcurve.png" alt="TOI-5786 b RV time series">
+          <figcaption>Radial-velocity measurements and best-fit Keplerian model for the sub-Saturn TOI-5786&thinsp;b obtained with MaHPS and SOPHIE.</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- RESEARCH AREA 2: THE SUB-SATURN POPULATION -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="research-block fade-in">
+      <h2>Formation and Evolution of Sub-Saturns</h2>
+
+      <p>
+        Sub-Saturns — planets with radii of roughly
+        4–8&thinsp;R<sub>⊕</sub> — occupy a fascinating and poorly understood
+        region of parameter space. Too large to be explained by rocky cores with
+        thin atmospheres alone, yet too small to have undergone the runaway gas
+        accretion that builds Jupiter-mass envelopes, they challenge conventional
+        models of giant planet formation. A major thread of my research asks:
+        <em>what can the internal structures and orbital architectures of
+        sub-Saturns tell us about their formation?</em>
+      </p>
+
+      <p>
+        Using the interior structure code <strong>GASTLI</strong>, I modelled a
+        sample of 28 warm sub-Saturns to derive their envelope mass fractions.
+        The resulting distribution is strikingly <strong>bimodal</strong>, with a
+        gap that aligns with the theoretical threshold for runaway gas
+        accretion — the point at which the envelope mass becomes comparable to
+        the core mass. Sub-Saturns below this gap appear to be planets whose
+        growth stalled before runaway accretion could begin, while those above
+        it managed to trigger runaway accretion but stopped shortly after,
+        perhaps because their natal disk dispersed. A complementary analysis of
+        the hydrogen-helium mass fraction reveals a second gap at ~30%,
+        corroborating earlier theoretical predictions whose physical origin
+        remains unexplained
+        (<a href="https://doi.org/10.1051/0004-6361/202453516" class="paper-ref">Thomas, Nielsen, Acuña et al. 2025&thinsp;↗</a>).
+      </p>
+
+      <div class="figure-group single">
+        <figure class="figure-slot">
+          <!-- Replace with: <img src="Images/fenv_bimodal.png" alt="Bimodal envelope mass fraction distribution"> -->
+          <div class="placeholder">Replace with the bimodal f_env histogram</div>
+          <figcaption>Bimodal distribution of envelope mass fractions across 28 sub-Saturns, with the runaway accretion threshold indicated.</figcaption>
+        </figure>
+      </div>
+
+      <p>
+        Building on this, I investigated the <strong>companion
+        architectures</strong> of 75 sub-Saturn systems by combining
+        radial-velocity injection-recovery tests with transit completeness maps
+        to measure completeness-corrected companion occurrence rates across the
+        Neptunian landscape. The results reveal a striking gradient:
+        nearby-companion rates rise from ~20% in the desert and ridge to ~78% in
+        the savanna, closely mirroring the known dichotomy between hot and warm
+        Jupiters. This supports an evolutionary connection between close-in
+        sub-Saturns and hot Jupiters, both consistent with high-eccentricity
+        migration clearing nearby planets during inward migration. Savanna
+        sub-Saturns, by contrast, reside in dynamically quiet, multi-planet
+        systems — and an eccentricity decomposition shows this distinction even
+        more cleanly than the period-based landscape classification alone.
+        <!-- <a href="#" class="paper-ref">Thomas, Nielsen et al. (submitted)&thinsp;↗</a> -->
+      </p>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      &copy; 2026 Luis M. Thomas ·
+      <a href="mailto:your.email@example.com">Contact</a>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: 0.12 });
+      document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    });
+  </script>
+</body>
+</html>
