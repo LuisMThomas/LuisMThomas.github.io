@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressum — Luis M. Thomas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-name">L. M. Thomas</a>
+      <div class="nav-links">
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="Images/CV_LuisThomas.pdf" target="_blank">CV</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="page-header fade-in">
+      <h1>Impressum</h1>
+    </div>
+
+    <section style="padding-top: 1rem;" class="fade-in">
+
+      <div style="font-size: 0.95rem;">
+
+        <p><strong>Angaben gemäß § 5 TMG</strong></p>
+
+        <p>
+          Luis Maurice Thomas<br>
+          Universitäts-Sternwarte München<br>
+          Fakultät für Physik, Ludwig-Maximilians-Universität München<br>
+          Scheinerstraße 1<br>
+          81679 München<br>
+          Deutschland
+        </p>
+
+        <p>
+          <strong>Kontakt</strong><br>
+          E-Mail: <a href="mailto:lthomas@mpe.mpg.de" style="color: var(--accent); text-decoration: none;">lthomas@mpe.mpg.de</a>
+        </p>
+
+        <p style="margin-top: 2rem; font-size: 0.85rem; color: var(--muted);">
+          Diese Website dient der persönlichen wissenschaftlichen Präsentation und verfolgt keine kommerziellen Zwecke.
+        </p>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      &copy; 2026 Luis M. Thomas ·
+      <a href="mailto:lthomas@mpe.mpg.de">Contact</a> ·
+      <a href="impressum.html">Impressum</a>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+      }, { threshold: 0.12 });
+      document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    });
+  </script>
+</body>
+</html>
