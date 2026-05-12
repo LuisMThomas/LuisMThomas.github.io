@@ -103,7 +103,7 @@ section + section { border-top: 1px solid var(--rule); }
 }
 .hero-photo {
   width: 150px;
-  background: var(--bg-alt);
+  background: transparent;
   border-radius: 6px;
   display: flex;
   align-items: center;
