@@ -74,7 +74,7 @@ section + section { border-top: 1px solid var(--rule); }
 /* ── PAGE HEADER ── */
 .page-header {
   padding-top: 7.5rem;
-  padding-bottom: 0.5rem;   /* was 2rem */
+  padding-bottom: 0.25rem;   /* was 2rem */
 }
 .page-header h1 {
   font-family: var(--serif);
@@ -92,7 +92,7 @@ section + section { border-top: 1px solid var(--rule); }
 /* ── HERO (index/about landing) ── */
 .hero {
   padding-top: 8rem;
-  padding-bottom: 1rem;    /* was 3rem */
+  padding-bottom: 0.25rem;    /* was 3rem */
   border-bottom: none;
 }
 .hero-grid {
@@ -112,7 +112,7 @@ section + section { border-top: 1px solid var(--rule); }
   color: var(--muted);
   overflow: hidden;
 }
-.hero-photo img { width: 100%; height: 100%; object-fit: cover; }
+.hero-photo img { width: 100%; display: block; }
 .hero h1 {
   font-family: var(--serif);
   font-size: 2.4rem;
