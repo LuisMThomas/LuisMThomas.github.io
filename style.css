@@ -103,10 +103,8 @@ section + section { border-top: 1px solid var(--rule); }
 }
 .hero-photo {
   width: 150px;
-  height: 150px;
-  border-radius: 50%;
   background: var(--bg-alt);
-  border: 3px solid var(--rule);
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
