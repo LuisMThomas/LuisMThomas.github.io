@@ -215,7 +215,7 @@ section + section { border-top: 1px solid var(--rule); }
   gap: 1rem;
   margin: 1.5rem 0;
 }
-.figure-group.single { grid-template-columns: 1fr; max-width: 560px; }
+.figure-group.single { grid-template-columns: 1fr; }
 .figure-slot {
   background: var(--bg-alt);
   border: 1px solid var(--rule);
